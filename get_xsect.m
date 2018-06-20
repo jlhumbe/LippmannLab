@@ -1,7 +1,7 @@
 function [xout,yout,iout,jout,zout,XSdist,XSoffset]=get_xsect(X,Y,Z,nXsect)
 % Josh Humberston 2018 UNH/USACE
-% 
-% Based on the input grid parameters (X,Y,Z), this code allows the user to
+%  
+% Based on the input grid parameters (X,Y,Z - for which Z must be a matrix), this code allows the user to
 % define beginning and end points of a desired number of cross sections
 % (nXsect) 
 %
